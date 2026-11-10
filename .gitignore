@@ -1,0 +1,48 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+docker-compose.yml
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Temporary files
+*.tmp
